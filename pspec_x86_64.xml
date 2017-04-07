@@ -1,0 +1,67 @@
+<PISI>
+    <Source>
+        <Name>haskell-dbus</Name>
+        <Packager>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Packager>
+        <License>GPL-3.0</License>
+        <PartOf>programming.haskell</PartOf>
+        <Summary xml:lang="en">This library is an implementation of the D-Bus protocol in Haskell. It can be used to add D-Bus support to Haskell applications, without the awkward interfaces common to foreign bindings.</Summary>
+        <Description xml:lang="en">This library is an implementation of the D-Bus protocol in Haskell. It can be used to add D-Bus support to Haskell applications, without the awkward interfaces common to foreign bindings.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>haskell-dbus</Name>
+        <Summary xml:lang="en">This library is an implementation of the D-Bus protocol in Haskell. It can be used to add D-Bus support to Haskell applications, without the awkward interfaces common to foreign bindings.</Summary>
+        <Description xml:lang="en">This library is an implementation of the D-Bus protocol in Haskell. It can be used to add D-Bus support to Haskell applications, without the awkward interfaces common to foreign bindings.
+</Description>
+        <PartOf>programming.haskell</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus.dyn_hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus.hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Address.dyn_hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Address.hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Client.dyn_hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Client.hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Introspection.dyn_hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Introspection.hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Message.dyn_hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Message.hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Socket.dyn_hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Socket.hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Transport.dyn_hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Transport.hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Types.dyn_hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Types.hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Wire.dyn_hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Wire.hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/libHSdbus-0.10.12-Bt7hOaoqcqb3UxRJ5cGFjA-ghc8.0.1.so</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.0.1/package.conf.d/haskell-dbus-0.10.12.conf</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>haskell-dbus-devel</Name>
+        <Summary xml:lang="en">Development files for haskell-dbus</Summary>
+        <Description xml:lang="en">This library is an implementation of the D-Bus protocol in Haskell. It can be used to add D-Bus support to Haskell applications, without the awkward interfaces common to foreign bindings.
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">haskell-dbus</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="library">/usr/lib64/ghc-*/*/*.a</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-04-07</Date>
+            <Version>0.10.12</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Update>
+    </History>
+</PISI>

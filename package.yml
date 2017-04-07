@@ -1,0 +1,22 @@
+name       : haskell-dbus
+version    : 0.10.12
+release    : 1
+source     :
+    - http://hackage.haskell.org/package/dbus-0.10.12/dbus-0.10.12.tar.gz : f6d7b5640eb03e9598e38b1a2b2e7af1e9d357f3f845fc9528f9750965b92d54
+license    : GPL-3.0
+component  : programming.haskell
+summary    : This library is an implementation of the D-Bus protocol in Haskell. It can be used to add D-Bus support to Haskell applications, without the awkward interfaces common to foreign bindings.
+description: |
+    This library is an implementation of the D-Bus protocol in Haskell. It can be used to add D-Bus support to Haskell applications, without the awkward interfaces common to foreign bindings.
+builddeps  :
+    - haskell-cabal-install
+    - haskell-cereal
+    - haskell-libxml-sax
+    - haskell-vector
+setup      : |
+    %cabal_configure
+build      : |
+    %cabal_build
+install    : |
+    %cabal_install
+    %cabal_register
