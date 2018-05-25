@@ -19,26 +19,30 @@
 </Description>
         <PartOf>programming.haskell</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus.dyn_hi</Path>
-            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus.hi</Path>
-            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Address.dyn_hi</Path>
-            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Address.hi</Path>
-            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Client.dyn_hi</Path>
-            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Client.hi</Path>
-            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Introspection.dyn_hi</Path>
-            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Introspection.hi</Path>
-            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Message.dyn_hi</Path>
-            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Message.hi</Path>
-            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Socket.dyn_hi</Path>
-            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Socket.hi</Path>
-            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Transport.dyn_hi</Path>
-            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Transport.hi</Path>
-            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Types.dyn_hi</Path>
-            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Types.hi</Path>
-            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Wire.dyn_hi</Path>
-            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/DBus/Wire.hi</Path>
-            <Path fileType="library">/usr/lib64/ghc-8.0.1/dbus-0.10.12/libHSdbus-0.10.12-Bt7hOaoqcqb3UxRJ5cGFjA-ghc8.0.1.so</Path>
-            <Path fileType="library">/usr/lib64/ghc-8.0.1/package.conf.d/haskell-dbus-0.10.12.conf</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus.dyn_hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus.hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus/Client.dyn_hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus/Client.hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus/Generation.dyn_hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus/Generation.hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus/Internal/Address.dyn_hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus/Internal/Address.hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus/Internal/Message.dyn_hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus/Internal/Message.hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus/Internal/Types.dyn_hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus/Internal/Types.hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus/Internal/Wire.dyn_hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus/Internal/Wire.hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus/Introspection.dyn_hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus/Introspection.hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus/Socket.dyn_hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus/Socket.hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus/TH.dyn_hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus/TH.hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus/Transport.dyn_hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/DBus/Transport.hi</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/dbus-1.0.1/libHSdbus-1.0.1-LKXXZxPxE4a6uZ0UDJJz2h-ghc8.2.2.so</Path>
+            <Path fileType="library">/usr/lib64/ghc-8.2.2/package.conf.d/haskell-dbus-1.0.1.conf</Path>
             <Path fileType="doc">/usr/share/doc</Path>
         </Files>
     </Package>
@@ -49,16 +53,16 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="1">haskell-dbus</Dependency>
+            <Dependency release="2">haskell-dbus</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib64/ghc-*/*/*.a</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2017-04-07</Date>
-            <Version>0.10.12</Version>
+        <Update release="2">
+            <Date>2018-05-25</Date>
+            <Version>1.0.1</Version>
             <Comment>Packaging update</Comment>
             <Name>Bryan T. Meyers</Name>
             <Email>bmeyers@datadrake.com</Email>
